@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StoreHub.Mini</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!--Style-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--Navbar Start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">StoreHub<span>.Mini</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Shopping</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a herf="#" id="search-button"><i data-feather="search"></i></a>
+        <a herf="#" id="account"><i data-feather="user"></i></a>
+        <a herf="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a herf="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!--Search Form Start-->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!--Search Form End-->
+
+      <!--Shopping Cart Start-->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/Whiskas [1].jpeg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>WHISKAS</h3>
+            <p class="item-price">Rp25.300</p>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!--Shopping Cart End-->
+    </nav>
+    <!--Navbar End-->
+
+    <!--Hero Section Start-->
+    <section id="home" class="hero">
+      <main class="content">
+        <h1>Welcome to StoreHub<span>.Mini</span></h1>
+        <p>Your one-stop shop for all your needs!</p>
+        <a href="#menu" class="cta">Explore Our Menu</a>
+      </main>
+    </section>
+    <!--Hero Section End-->
+
+    <!--About Us Section Start-->
+    <section id="about" class="about">
+      <h2>About <span>Us</span></h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/Kelompok.jpeg" alt="About Us" />
+        </div>
+        <div class="content">
+          <h3>Who We Are?</h3>
+          <p>
+            StoreHub.Mini is your friendly neighborhood store, dedicated to
+            providing a wide range of products to meet your everyday needs. From
+            groceries to household essentials, we have it all under one roof.
+          </p>
+          <h3>Our Mission</h3>
+          <p>
+            Our mission is to offer quality products at affordable prices while
+            ensuring a pleasant shopping experience for our customers. We
+            believe in building lasting relationships with our community by
+            prioritizing customer satisfaction and convenience.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--About Us Section End-->
+
+    <!--Menu Section Start-->
+    <section id="menu" class="menu">
+      <h2>Menu<span></span></h2>
+      <p>Explore our delicious menu items crafted to satisfy your cravings.</p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/Burger.jpeg" alt="Menu Item 1" class="menu-card-img" />
+          <h3 class="menu-card-title">-BURGER-</h3>
+          <p>
+            juicy and savory beef burger, grilled to perfection with a soft
+            brioche bun, melted cheese, fresh vegetables, and special sauce. One
+            bite is addictive 🍔
+          </p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <p class="menu-card-price">Rp38.900</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="img/Roti-Bakar.jpeg"
+            alt="Menu Item 1"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">-Sandwitch-</h3>
+          <p>
+            made with toasted soft bread, juicy beef, melted cheese, fresh
+            lettuce and tomatoes, and a signature savory sauce for a delicious,
+            satisfying bite 🥪
+          </p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <p class="menu-card-price">Rp25.300</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Macaron.jpeg" alt="Menu Item 1" class="menu-card-img" />
+          <h3 class="menu-card-title">-MACARON-</h3>
+          <p>
+            Delicate, colorful, and irresistibly smooth — our macarons feature
+            crisp shells with a soft, chewy center, filled with rich, creamy
+            flavors that melt in your mouth. A sweet bite of pure indulgence 🍬
+          </p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          <p class="menu-card-price">Rp22.450</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/Gyoza.jpeg" alt="Menu Item 1" class="menu-card-img" />
+          <h3 class="menu-card-title">-GYOZA-</h3>
+          <p>
+            Crispy on the outside, juicy on the inside — our gyoza is filled
+            with savory seasoned meat, pan-fried to golden perfection, and
+            served with a rich dipping sauce. One bite and you'll be hooked 🥟
+          </p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <p class="menu-card-price">Rp25.100</p>
+        </div>
+      </div>
+    </section>
+    <!--Menu Section End-->
+
+    <!--Products Section Start-->
+    <section id="products" class="products">
+      <h2>Shopping</h2>
+      <p>Check out our featured products!</p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Bango [1].jpeg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>BANGO</h3>
+            <div class="product-price">Rp12.900</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Fiesta [1].jpeg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>FIESTA</h3>
+            <div class="product-price">Rp23.300</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Greenfields [1].jpeg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>GREENFIELDS</h3>
+            <div class="product-price">Rp25.000</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Lay's [1].jpeg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>LAY'S</h3>
+            <div class="product-price">Rp16.350</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Maestro [1].jpeg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>MAESTRO</h3>
+            <div class="product-price">Rp12.900</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Royco-Ayam [1].jpeg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>ROYCO</h3>
+            <div class="product-price">Rp6.700</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Segitiga-Biru [1].jpeg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>SEGITIGA BIRU</h3>
+            <div class="product-price">Rp13.800</div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Whiskas [1].jpeg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>WHISKAS</h3>
+            <div class="product-price">Rp32.150</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Products Section End-->
+
+    <!-- Contact Section Start-->
+    <section id="contact" class="contact">
+      <h2>Contact <span>Us</span></h2>
+      <p>Have questions or feedback?</p>
+      <p>Reach out to us!</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1001.7902343275085!2d112.72139477632854!3d-7.321368722340918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb00414cdf05%3A0xb43d3a8f53b5989c!2sSuper%20Indo%20Ketintang!5e0!3m2!1sid!2sid!4v1766098172906!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Your Email" required />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="Your Phone Number" required />
+          </div>
+          <button type="submit" class="button">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <!--Contact Section End -->
+
+    <!--Footer Start -->
+    <footer>
+      <div id="socials" class="socials">
+        <a
+          href="https://www.instagram.com/kane._.matthew?igsh=MW52ZXZyZGxhNWZ6cw=="
+          ><i data-feather="instagram"></i>@kane._.matthew</a
+        >
+        <a
+          href="https://www.instagram.com/nassywaaa._?igsh=MTRmdnJscnN6cGRvaw=="
+          ><i data-feather="instagram"></i>@nassywaaa._</a
+        >
+        <a href="https://www.instagram.com/diann.fbi?igsh=N2VwZTZkOGFlNW82"
+          ><i data-feather="instagram"></i>@diann.fbi</a
+        >
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Shopping</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by Kelompok 11 | &copy; 2025 All rights reserved.</p>
+      </div>
+    </footer>
+    <!--Footer End-->
+
+    <!--Modal Box Item Detail Start-->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/Whiskas [1].jpeg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>
+              Whiskas Tuna is a complete nutritional cat food with real tuna.
+            </p>
+            <div class="product-price">Rp5.000</div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>Add to Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/Bango [1].jpeg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>
+              Bango sweet soy sauce adds a rich, authentic sweet flavor to your
+              dishes.
+            </p>
+            <div class="product-price">Rp12.900</div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>Add to Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/Fiesta [1].jpeg" alt="Product 2" />
+          <div class="product-content">
+            <h3>Product 2</h3>
+            <p>
+              This is a pre-mixed flour specifically formulated to create a
+              crunchy, flavorful coating for fried chicken.
+            </p>
+            <div class="product-price">Rp23.300</div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>Add to Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/Greenfields [1].jpeg" alt="Product 3" />
+          <div class="product-content">
+            <h3>Product 3</h3>
+            <p>Milk is a nutrient-rich liquid food produced by mammals.</p>
+            <div class="product-price">Rp25.000</div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>Add to Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/Lay's [1].jpeg" alt="Product 4" />
+          <div class="product-content">
+            <h3>Product 4</h3>
+            <p>
+              Lay's potato chips offer a crispy texture and delicious flavor for
+              snacking anytime.
+            </p>
+            <div class="product-price">Rp16.350</div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>Add to Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/Maestro [1].jpeg" alt="Product 5" />
+          <div class="product-content">
+            <h3>Product 5</h3>
+            <p>
+              Mayonnaise adds a creamy and rich taste to your favorite dishes.
+            </p>
+            <div class="product-price">Rp12.900</div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>Add to Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/Royco-Ayam [1].jpeg" alt="Product 6" />
+          <div class="product-content">
+            <h3>Product 6</h3>
+            <p>
+              Royco seasoning enhances the taste of dishes with a rich and
+              savory flavor.
+            </p>
+            <div class="product-price">Rp6.700</div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>Add to Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/Segitiga-Biru [1].jpeg" alt="Product 7" />
+          <div class="product-content">
+            <h3>Product 7</h3>
+            <p>
+              Royco seasoning enhances the taste of dishes with a rich and
+              savory flavor.
+            </p>
+            <div class="product-price">Rp6.700</div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>Add to Cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal Box Item Detail End-->
+
+    <!--Feather Icons-->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
